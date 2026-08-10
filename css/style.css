@@ -702,3 +702,97 @@ textarea {
   to {
     opacity: 0;
     top: 27px; } }
+
+    /* --- Custom Attractive Styling Improvements --- */
+
+/* 1. Hero Section: Modern Dark/Tech Gradient Theme */
+.home-hero {
+  background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 50%, #312e81 100%) !important;
+  color: #ffffff !important;
+  position: relative;
+  overflow: hidden;
+}
+
+.heading-primary {
+  color: #ffffff !important;
+  font-weight: 800 !important;
+  letter-spacing: 1px;
+}
+
+.text-primary {
+  color: #cbd5e1 !important;
+  font-size: 1.2rem !important;
+}
+
+/* Hero Button Modern Style */
+.home-hero__cta .btn {
+  background: #6366f1 !important;
+  color: #ffffff !important;
+  border-radius: 8px !important;
+  padding: 14px 32px !important;
+  font-weight: 700 !important;
+  box-shadow: 0 10px 25px rgba(99, 102, 241, 0.4) !important;
+  transition: all 0.3s ease !important;
+}
+
+.home-hero__cta .btn:hover {
+  transform: translateY(-3px) !important;
+  box-shadow: 0 15px 30px rgba(99, 102, 241, 0.6) !important;
+  background: #4f46e5 !important;
+}
+
+/* 2. Skills Badges Design Enhancements */
+.skills__skill {
+  background: #f1f5f9 !important;
+  color: #1e293b !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 20px !important;
+  padding: 10px 20px !important;
+  font-weight: 600 !important;
+  transition: all 0.3s ease !important;
+}
+
+.skills__skill:hover {
+  background: #6366f1 !important;
+  color: #ffffff !important;
+  transform: translateY(-3px) !important;
+  box-shadow: 0 8px 15px rgba(99, 102, 241, 0.3) !important;
+}
+
+/* 3. General Theme Buttons */
+.btn--theme {
+  background: #6366f1 !important;
+  border-radius: 8px !important;
+  font-weight: 700 !important;
+  transition: all 0.3s ease !important;
+}
+
+.btn--theme:hover {
+  background: #4f46e5 !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 8px 20px rgba(79, 70, 229, 0.4) !important;
+}
+
+/* 4. Projects Row Layout & Shadow */
+.projects__row {
+  background: #ffffff;
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  margin-bottom: 40px;
+  transition: transform 0.3s ease;
+}
+
+.projects__row:hover {
+  transform: translateY(-5px);
+}
+
+/* 5. Contact Section Background Update */
+.contact.dynamicBg {
+  background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%) !important;
+}
+
+.contact__form-container {
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
